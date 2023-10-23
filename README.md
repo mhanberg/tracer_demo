@@ -4,6 +4,8 @@ Demonstrates that column information is not included with the line information f
 
 ## Usage
 
+Tested with Elixir 1.15.7 and OTP 26.1.1 on an apple silicon mac
+
 This demo has some oddities with how the tracer is included (I'm not entirely sure how to include tracers inside your own application, so you should run `mix clean` before running `mix compile`.
 
 ```sh
